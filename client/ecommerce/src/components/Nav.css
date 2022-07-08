@@ -1,0 +1,20 @@
+.zenith-logo{
+    width: 150px;
+}
+.item-check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+    margin-left: 30px;
+}
+
+
+
+/* mobile screen */
+@media only screen and (max-width: 768px) {
+    .item-check {
+        width: 90%;
+        margin: 0 auto;
+    }
+  }
